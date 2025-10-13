@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",        // ✅ import.meta 지원
+    "module": "ESNext",        // ✅ 최신 모듈 시스템
+    "moduleResolution": "Node",
+    "lib": ["ES2020", "DOM"],  // ✅ 브라우저 환경 지원
+    "allowJs": true,
+    "checkJs": false,          // JS 타입 체크 끄기 (원한다면 true로)
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "exclude": ["node_modules", "dist"]
+}

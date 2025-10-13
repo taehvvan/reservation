@@ -1,0 +1,21 @@
+/* Noto Sans KR 폰트를 불러옵니다. */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;500;700;900&display=swap');
+
+@import './base.css';
+
+/* body에 Noto Sans KR을 기본 폰트로 적용하고, 기본 스타일을 초기화합니다. */
+body {
+  font-family: 'Noto Sans KR', sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fff;
+  color: #333;
+}
+
+#app {
+  width: 100%; 
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}

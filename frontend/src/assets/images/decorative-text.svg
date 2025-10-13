@@ -1,0 +1,8 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <path id="circlePath" fill="none" d="M 10, 50 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0" />
+  <text fill="#000" font-size="8" font-family="Noto Sans KR, sans-serif" letter-spacing="1.5">
+    <textPath href="#circlePath">
+      대한민국 구석구석 · KOREA TOURISM ORGANIZATION · 
+    </textPath>
+  </text>
+</svg>
